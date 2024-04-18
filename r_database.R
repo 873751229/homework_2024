@@ -36,3 +36,4 @@ dbWriteTable(con, "doubs", Doubs, overwrite = TRUE)#使用dbWriteTable函数将R
 # 关闭数据库连接
 dbDisconnect(con)
 
+#------------------------------------------------------------------------------
